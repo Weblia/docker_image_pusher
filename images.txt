@@ -7,3 +7,43 @@
 --platform=linux/amd64 rustdesk/rustdesk-server-s6:latest
 --platform=linux/amd64 jeessy/ddns-go
 --platform=linux/amd64 jpillora/dnsmasq
+#基础设施
+portainer/portainer-ce
+nginx-proxy-manager
+containrrr/watchtower
+traefik
+#开发工具
+linuxserver/code-server
+gitlab/gitlab-ce
+jenkins/jenkins
+drone/drone
+#数据库
+mongo
+redis
+mysql
+postgres
+#监控和日志
+grafana/grafana
+prom/prometheus
+google/cadvisor
+louislam/uptime-kuma
+#应用服务
+nextcloud
+jellyfin/jellyfin
+wordpress
+vaultwarden/server
+#网络工具
+dreamacro/clash
+snowdreamtech/frpc
+v2fly/v2fly-core
+shadowsocks/shadowsocks-libev
+#工具应用
+n8n-io/n8n
+mckaywrigley/chatbot-ui
+fireflyiii/core
+syncthing/syncthing
+#其他服务
+linuxserver/calibre-web
+ghcr.io/paperless-ngx/paperless-ngx
+photoprism/photoprism
+linuxserver/qbittorrent
